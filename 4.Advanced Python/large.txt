@@ -1,0 +1,6 @@
+What is lazy loading?
+Lazy loading is a technique for waiting to load certain parts of a webpage — especially images — until they are needed. Instead of loading everything all at once, known as "eager" loading, the browser does not request certain resources until the user interacts in such a way that the resources are needed. When implemented properly, lazy loading can speed up page load times.
+
+This type of loading is called "lazy" because it encourages a web browser to procrastinate. When displaying a lazy loading webpage, a browser essentially says, "I will wait to load these images until I really need to." When displaying an eager loading webpage, a browser takes the opposite attitude: "I will take care of everything right away!" While procrastination sometimes carries negative connotations in the real world, in this case it is often more efficient.
+
+For instance, a blog post might have an image at the top of the page and a diagram near the bottom. Someone reading the blog post might not reach the bottom of the text for several minutes, so the browser waits to load the diagram until the reader scrolls to that section. This way, the page loads more quickly at first, because the browser is loading one image instead of two.
