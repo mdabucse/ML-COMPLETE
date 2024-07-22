@@ -1,0 +1,6 @@
+Definition:
+    Web Framework Craeted by the Python Program
+
+Main Components:
+1. Web server Gateway Interface -> Response sent to the Web server to Web App
+2. Jinga 2 Template -> Web Template Engine -> Combain Web Templates with Data Source (DB)
