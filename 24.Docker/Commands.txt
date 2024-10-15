@@ -1,0 +1,25 @@
+FROM -> Environment ->  python:3.8-alpine
+COPY -> Create Seperate Directory ->  . /app
+WORKDIR -> Get into the Dorctory ->  /app
+RUN -> Install Dependencies With Commands -> pip install -r requirements.txt
+CMD -> Run The App -> python app.py
+
+
+
+## To build the Dockerfile
+docker build -t username/app-name .
+
+## To remove the Image
+docker image rm -f welcome-app
+
+## To run the Docker Image
+docker run -p port-no:port-no /image-name
+eg:  docker run -p 5000:5000 welcome-app
+
+## To change the image name
+docker tag old-name new-name
+eg: docker tag mdabcse/first-app mdabucse/first-app 
+
+## Push the Image into the Docker Hub
+docker push image-name:version
+eg: docker push mdabucse/first-app:latest
